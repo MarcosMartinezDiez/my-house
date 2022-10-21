@@ -54,7 +54,7 @@ public class Picture
         sun.moveVertical(120);
         sun.changeSize(80);
         sun.makeVisible();
-        sun.slowMoveVertical(-100);
+        
         
         floor = new Square();
         floor.changeColor("green");
@@ -62,6 +62,8 @@ public class Picture
         floor.moveHorizontal(-490);
         floor.changeSize(100000);
         floor.makeVisible();
+        
+        sun.slowMoveVertical(-100);
         
         
     }
