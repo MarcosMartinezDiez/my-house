@@ -68,7 +68,8 @@ public class Picture
         
         
     }
-    public void Atardecer(){sun.slowMoveVertical(139);
+    public void atardecer(){
+        sun.slowMoveVertical(139);
     }
     /**
      * Change this picture to black/white display
